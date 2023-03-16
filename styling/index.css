@@ -7,6 +7,8 @@
 }
 body{
     overflow-x: clip;
+    background-color: #000024;
+    box-sizing: border-box;
 }
 
 nav {
@@ -68,7 +70,7 @@ button {
 }
 .more:hover{
     background-color: #00388D !important;
-    border: 1px solid #b0cdf9;
+    border-color: #b0cdf9 !important;
     border-radius: 24px;
 
 }
@@ -205,6 +207,8 @@ a {
     height: auto;
     margin: auto;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .part-2 .about {
@@ -258,78 +262,89 @@ a {
     width: 40%;
     position: relative;
     background: linear-gradient(90deg, rgba(0, 94, 235, 0), rgba(1, 18, 67, 1));
+    z-index: 1;height: 40vh;
+    /* outline: 2px solid white; */
 }
 
-.row-1 {
+.row-parent {
     display: flex;
-
-
+    /* outline: 2px solid red; */
+    position: relative;
+    width: 100%;
+    max-width: 486px;
+    height: auto;
+    flex-direction: row;
 }
 
-.row-2 {
+.row-parent img {
+    width: 100%;
+    padding: 8px;
+}
+
+.row-parent .col-1 {
+    padding-right: 16px;
+}
+
+/* .row-2 {
     display: flex;
-}
+    position: relative
+} */
 
-.img-1 {
-    width: 40%;
-    padding-right: 2%;
-    padding-bottom: 2%;
+/* .img-1 {
+    width: 216px;
+    height: 272px;
+    outline: 2px solid red;
 }
 
 .img-1 img {
-    width: 100%;
+    max-width: 100%;
 }
-
 .img-2 {
-    width: 40%;
-
+    width: 216px;
+    height: 136px;
+    outline: 2px solid blue;
 }
 
 .img-2 img {
-    width: 100%;
+    max-width: 100%;
 }
-
 .img-3 {
-    width: 40%;
-    padding-right: 2%;
+    width: 216px;
+    height: 136px;
+    outline: 2px solid yellow;
 }
 
 .img-3 img {
-    width: 100%
+    max-width: 100%;
 }
-
 .img-4 {
-    width: 35.5%;
-    position: absolute;
-    left: 45%;
-    bottom: 0%;
-    object-fit: contain;
-
-
-
+    width: 216px;
+    height: 272px;
+    outline: 2px solid green;
 }
 
 .img-4 img {
-    width: 100%;
-    height: 40vh;
-}
+    max-width: 100%;
+} */
+
+
 
 .part-3 {
     background-color: #000024;
     width: 100%;
     margin: auto;
     /* flex-direction: column; */
-    height: 90vh;
+    height: 800px;
     padding-top: 10%;
     position: relative;
-    height: 140vh;
+    /* height: 140vh; */
     /* background-image: url(/assets/Ellipse\ 1.png);  */
 }
 
 .border {
     border: 1px solid #b0cdf9;
     border-radius: 20px;
-    height: 130vh;
+    height: 700px;
     width: 90%;
     margin: auto;
 }
@@ -343,15 +358,24 @@ a {
     /* justify-content: center; */
 }
 
+.why-choose-us {
+    margin-bottom: 90px;
+}
+
 .part-3 .more {
-    width: 30%;
+    width: 40%;
     text-align: left;
     margin: auto;
-    padding-top: 5%;
-    height: 35vh;
+    /* padding-top: 5%; */
+    padding-top: 10px;
+    margin-bottom: 20px;
+    height: 200px;
     margin-right: 5%;
     padding-left: 20px;
     padding-right: 20px;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
 
 }
 
@@ -371,7 +395,7 @@ a {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
     color: #B0B0D0;
 }
