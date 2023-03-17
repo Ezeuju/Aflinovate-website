@@ -40,7 +40,7 @@ nav ul li a {
     line-height: 24px;
 }
 
-button {
+nav button {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -1009,6 +1009,12 @@ a {
     
     width: 60%;
 }
+.menu{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
 
 
 
@@ -1019,7 +1025,6 @@ a {
         box-sizing: 0;
         font-family: 'Poppins', sans-serif;
     }
-
     body,
     html {
         /* overflow-x: hidden; */
@@ -1031,13 +1036,16 @@ a {
     }
 
     .part-1 {
+        width: 100%;
         height: auto;
-        margin: auto;
     }
 
+
+
+
     .part-1 h1 {
-        width: 90%;
-        font-weight: 50;
+        width: 95%;
+        font-weight: 700;
         font-size: 40px;
         margin: auto;
         line-height: 60px;
@@ -1045,10 +1053,16 @@ a {
 
     .part-1 p {
         width: 80%;
+        font-weight: 700;
         margin: auto;
         font-size: 12px;
     }
-
+    button{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+  
     .part-1 .num {
         width: 50%;
         padding-right: 40px;
@@ -1076,6 +1090,7 @@ a {
         display: flex;
         flex-direction: column;
         padding: 0;
+        width: 90%;
     }
 
     .part-2 .about {
@@ -1107,9 +1122,295 @@ a {
     }
 
     .part-2 .learn {
-        width: 80%;
+        width: 60%;
         display: flex;
         justify-content: center;
     }
 
+
+.part-3{
+    width: 100%;
+    height: 240vh;
+}
+.border{
+    display: block;
+    width: 90%;
+    height: 230vh;
+}
+.many{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    
+}
+.part-3 .more{
+    width: 90%;
+}
+.part-3 h3{
+    font-size: 38px;
+}
+.part-4 h4{
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    padding: 0;
+    outline: 2px solid red;
+}
+.box-one{
+    display: block;
+    
+    width: 80%;
+    height: 100vh;
+    z-index: 1;;
+}
+.software{
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+.software .so{
+    margin-top: 5%;
+    outline: 2px solid red;
+}
+.tele{
+    width: 100%;
+    left: 0%;
+    height: 40vh;
+    
+    
+}
+.software .start{
+    width: 80%;
+}
+.ellip{
+    display: none;
+}
+.part-4{
+    height: 280vh;
+}
+.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    height: 160vh;
+}
+.train{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 20%;
+    outline: 2px solid red;
+}
+.work{
+    width: 100%;
+    outline: 2px solid red;
+}
+.tran{
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+}
+.visit{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+.students{
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    width: 90%;
+    margin: auto;
+}
+.blog{
+    width: 90%;
+    margin: auto;
+}
+.part-5 .big{
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 5%;
+}
+.tiny{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.part-5 .read{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.part-5{
+    height: auto;
+}
+.recent{
+    height: 255vh;
+    outline: 2px solid height;
+    padding-bottom: 0%;
+}
+.recent h6{
+    margin-left: 10%;
+    font-size: 30px;
+}
+.multiple{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+    
+}
+.tech{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.last{
+    height: 115vh;
+    
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.foot-one{
+    width: 90%;
+    margin: auto;
+}
+.foot-two{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+.foot-three{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    padding-left: 0%;
+}
+.foot-three .project{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.socials{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+}
+.email{
+    margin-top: 5%;
+
+}
+.phone{
+    margin-top: 5%;
+
+}
+.map{
+    margin-top: 5%;
+
+}
+.foot-one .logo{
+    margin-top: 8%;
+}
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: -3rem;
+    margin-bottom:  10px;
+    border: none;
+    background: #000024;
+    cursor: pointer;
+  }
+  .closeIcon {
+    display: none;
+  }
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #000024;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    justify-content: center;
+    
+  }
+  .menuItem{
+    padding: 10%;
+    
+    
+  }
+  .menu li{
+    margin-bottom: 10%;
+    align-items: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+  }
+  .menu a{
+    color: #fff;
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+  }
+  .you{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000066;
+
+    display: flex;
+
+    align-items: center;
+    padding: 12px 24px;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: #CCCCE0;
+    border-radius: 24px;
+    justify-content: center;
+    margin-top: 7%;
+    margin: auto;
+
+  }
+  .you a{
+    color: #000066;
+  }
+  .part-1 .cup{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        color: #000066;
+        margin-right: 6%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 8px;
+        width: 134px;
+        height: auto;
+        background-color: #CCCCE0;
+        border-radius: 24px;
+        justify-content: center;
+        margin-top: 7%;
+  }
 }
