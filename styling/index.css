@@ -52,8 +52,8 @@ nav .cup {
     border-radius: 24px;
     font-size: 13px;
     font-family: 'DM Sans'
-    
-    /* font-family: 'DM Sans';
+
+        /* font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500; 
     font-size: 13px; 
@@ -66,9 +66,10 @@ nav .cup {
     border-radius: 24px;
     margin-top: 25px;
     margin-right: 5%;  */
- 
+
 }
-nav .cup a{
+
+nav .cup a {
     color: #000066
 }
 
@@ -81,17 +82,19 @@ nav .cup a{
 
 }
 
-svg.icon:hover{
+svg.icon:hover {
     fill: orange !important;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.hamburger{
-    display:  none;
+
+.hamburger {
+    display: none;
 }
 
-.vector-one{
+.vector-one {
     background-image: url(/assets/hope1.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -99,7 +102,8 @@ svg.icon:hover{
     width: 36px;
     background-position: center;
 }
-.vector-two{
+
+.vector-two {
     background-image: url(/assets/hope2.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -107,7 +111,8 @@ svg.icon:hover{
     width: 36px;
     background-position: center;
 }
-.vector-six{
+
+.vector-six {
     background-image: url(/assets/hope3.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -115,7 +120,8 @@ svg.icon:hover{
     width: 36px;
     background-position: center;
 }
-.vector-three{
+
+.vector-three {
     background-image: url(/assets/hope4.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -123,7 +129,8 @@ svg.icon:hover{
     width: 36px;
     background-position: center;
 }
-.vector-four{
+
+.vector-four {
     background-image: url(/assets/hope5.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -131,7 +138,8 @@ svg.icon:hover{
     width: 36px;
     background-position: center;
 }
-.vector-five{
+
+.vector-five {
     background-image: url(/assets/hope6.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -147,27 +155,32 @@ svg.icon:hover{
     padding: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
-    margin-top: 10px; 
+    margin-top: 10px;
     display: flex;
-    
+
     justify-content: center;
 }
 
 .more:hover .vector-one {
     background-image: url(/assets/real-bock.svg);
 }
+
 .more:hover .vector-two {
     background-image: url(/assets/two-1.svg);
 }
+
 .more:hover .vector-three {
     background-image: url(/assets/four-1.svg);
 }
+
 .more:hover .vector-four {
     background-image: url(/assets/five-1.svg);
 }
+
 .more:hover .vector-five {
     background-image: url(/assets/six.svg);
 }
+
 .more:hover .vector-six {
     background-image: url(/assets/six-real.svg);
 }
@@ -220,15 +233,59 @@ nav .logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 96px;
     text-align: center;
     color: #FFFFFF;
     padding-top: 10%;
+    width: 100%;
+    margin: auto;
 }
 
 .dev {
     color: #FFBE0B;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    display: block !important;
+}
+
+/* Scroller styling */
+.scroller {
+    height: 1.2em !important;
+    line-height: 1.2em !important;
+    position: relative;
+    overflow: hidden !important;
+    width: 14em !important;
+}
+
+.scroller>span {
+    position: absolute;
+    top: 0;
+    animation: slide 10s infinite;
+    font-weight: bold;
+
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -1.2em;
+    }
+
+    50% {
+        top: -2.4em;
+    }
+
+    75% {
+        top: -3.6em;
+    }
 }
 
 .part-1 p {
@@ -353,7 +410,7 @@ a {
     border-radius: 24px;
     justify-content: center;
     margin-top: 7%;
-    outline: 2px ;
+    outline: 2px;
 
 
 }
@@ -363,10 +420,10 @@ a {
     position: relative;
     background: linear-gradient(90deg, rgba(0, 94, 235, 0), rgba(1, 18, 67, 1));
     z-index: 1;
-    height: 80vh;
+    height: 90vh;
     margin-left: 10%;
     /* outline: 2px solid white; */
-    
+
 }
 
 .row-parent {
@@ -1134,14 +1191,28 @@ a {
         padding: 0;
     }
 
-    nav ul{
+    nav ul {
         display: none;
     }
-    nav .cup{
+
+    nav .cup {
         display: none;
 
     }
-    .primary{
+    .scroller{
+        width: 12em;
+        margin: auto;
+    }
+    .scroller>span {
+    position: absolute;
+    top: 0;
+        right: 17rem;
+    animation: slide 10s infinite;
+    font-weight: bold;
+
+}
+
+    .primary {
         width: 40%;
     }
 
@@ -1218,7 +1289,8 @@ a {
         height: 50vh;
         margin: auto;
     }
-    .row-parent{
+
+    .row-parent {
         width: 90%;
         margin: auto;
     }
@@ -1270,7 +1342,7 @@ a {
         margin: auto;
         font-size: 30px;
         padding: 0;
-        
+
     }
 
     .box-one {
@@ -1331,14 +1403,14 @@ a {
         margin: auto;
         margin-top: 20%;
         max-height: 57vh;
-        
+
     }
 
     .work {
         width: 100%;
         max-height: 70vh;
         margin-top: 20%;
-        
+
     }
 
     .tran {
@@ -1392,10 +1464,11 @@ a {
     }
 
     .recent {
-        height: 250vh;
+        height: 255vh !important;
         max-height: auto;
         outline: 2px solid height;
         padding-bottom: 0%;
+        
     }
 
     .recent h6 {
@@ -1490,23 +1563,24 @@ a {
         cursor: pointer;
         display: block;
     }
-        .menu {
-            position: fixed;
-            transform: translateY(-100%);
-            transition: transform 0.2s;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 99;
-            background: #000024;
-            color: white;
-            list-style: none;
-            padding-top: 4rem;
-            justify-content: center;
-            display: block;
-    
-        }
+
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #000024;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+        justify-content: center;
+        display: block;
+
+    }
 
 
     .closeIcon {
@@ -1582,6 +1656,7 @@ a {
         margin-top: 7%;
     }
 }
+
 @media only screen and (max-width: 600px) {
     * {
         margin: 0;
@@ -1595,10 +1670,12 @@ a {
         /* overflow-x: hidden; */
         padding: 0;
     }
-    .recent{
+
+    .recent {
         /* height: 300vh; */
     }
 }
+
 @media only screen and (max-width: 414px) {
     * {
         margin: 0;
@@ -1609,18 +1686,21 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 190vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
     }
 }
+
 @media only screen and (max-width: 393px) {
     * {
         margin: 0;
@@ -1631,21 +1711,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 200vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 393px) {
     * {
         margin: 0;
@@ -1656,21 +1739,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 230vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 820px) {
     * {
         margin: 0;
@@ -1681,21 +1767,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 190vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 260vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 768px) {
     * {
         margin: 0;
@@ -1706,21 +1795,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 200vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 260vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 912px) {
     * {
         margin: 0;
@@ -1731,21 +1823,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 170vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 260vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 540px) {
     * {
         margin: 0;
@@ -1756,21 +1851,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 250vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 412px) {
     * {
         margin: 0;
@@ -1781,21 +1879,24 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 180vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
 
 }
+
 @media only screen and (max-width: 1024px) {
     * {
         margin: 0;
@@ -1806,24 +1907,28 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 180vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
-    .part-3 .more{
+
+    .part-3 .more {
         height: auto;
     }
 
 }
+
 @media only screen and (max-width: 1024px) {
     * {
         margin: 0;
@@ -1834,20 +1939,23 @@ a {
 
     body,
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
         padding: 0;
     }
-    .recent{
+
+    .recent {
         height: 200vh;
-    
+
 
     }
-    .part-4{
+
+    .part-4 {
         height: 270vh;
 
 
     }
-    .part-3 .more{
+
+    .part-3 .more {
         height: auto;
     }
 
