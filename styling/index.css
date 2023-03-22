@@ -110,7 +110,7 @@ svg.icon:hover {
 }
 
 .vector-two {
-    background-image: url(./assets/hope2.svg);
+    background-image: url(../assets/hope2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
