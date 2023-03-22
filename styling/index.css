@@ -68,9 +68,15 @@ nav .cup {
     margin-right: 5%;  */
 
 }
+.container {
+    /* width:  ; */
+}
+.great{
+    word-break: break-word;
+}
 
 nav .cup a {
-    color: #000066
+    color: #000066;
 }
 
 .yellow-effect:hover {
@@ -1234,7 +1240,7 @@ a {
 
     .part-1 p {
         width: 80%;
-        font-weight: 700;
+        font-weight: 200;
         margin: auto;
         font-size: 12px;
     }
