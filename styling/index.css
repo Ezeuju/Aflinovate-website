@@ -101,7 +101,7 @@ svg.icon:hover {
 }
 
 .vector-one {
-    background-image: url(/assets/hope1.svg);
+    background-image: url(./assets/hope1.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -110,7 +110,7 @@ svg.icon:hover {
 }
 
 .vector-two {
-    background-image: url(/assets/hope2.svg);
+    background-image: url(./assets/hope2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -119,7 +119,7 @@ svg.icon:hover {
 }
 
 .vector-six {
-    background-image: url(/assets/hope3.svg);
+    background-image: url(./assets/hope3.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -128,7 +128,7 @@ svg.icon:hover {
 }
 
 .vector-three {
-    background-image: url(/assets/hope4.svg);
+    background-image: url(./assets/hope4.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -137,7 +137,7 @@ svg.icon:hover {
 }
 
 .vector-four {
-    background-image: url(/assets/hope5.svg);
+    background-image: url(./assets/hope5.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -146,7 +146,7 @@ svg.icon:hover {
 }
 
 .vector-five {
-    background-image: url(/assets/hope6.svg);
+    background-image: url(./assets/hope6.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 36px;
@@ -168,27 +168,27 @@ svg.icon:hover {
 }
 
 .more:hover .vector-one {
-    background-image: url(/assets/real-bock.svg);
+    background-image: url(./assets/real-bock.svg);
 }
 
 .more:hover .vector-two {
-    background-image: url(/assets/two-1.svg);
+    background-image: url(./assets/two-1.svg);
 }
 
 .more:hover .vector-three {
-    background-image: url(/assets/four-1.svg);
+    background-image: url(./assets/four-1.svg);
 }
 
 .more:hover .vector-four {
-    background-image: url(/assets/five-1.svg);
+    background-image: url(./assets/five-1.svg);
 }
 
 .more:hover .vector-five {
-    background-image: url(/assets/six.svg);
+    background-image: url(./assets/six.svg);
 }
 
 .more:hover .vector-six {
-    background-image: url(/assets/six-real.svg);
+    background-image: url(./assets/six-real.svg);
 }
 
 .more:hover .vector-parent {
@@ -504,7 +504,7 @@ a {
     padding-top: 10%;
     position: relative;
     /* height: 140vh; */
-    /* background-image: url(/assets/Ellipse\ 1.png);  */
+    /* background-image: url(./assets/Ellipse\ 1.png);  */
 }
 
 .border {
@@ -641,7 +641,7 @@ a {
 }
 
 .box-one {
-    background-image: url(/assets/Cards\ \(3\).png);
+    background-image: url(./assets/Cards\ \(3\).png);
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
