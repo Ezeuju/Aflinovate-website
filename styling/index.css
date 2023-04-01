@@ -163,8 +163,8 @@ svg.icon:hover {
     margin-left: 20px;
     margin-top: 10px;
     display: flex;
-
     justify-content: center;
+
 }
 
 .more:hover .vector-one {
@@ -624,7 +624,7 @@ a {
 .part-4 {
     width: 100%;
     background-color: #000024;
-    height: 185vh;
+    height: 208vh;
     position: relative;
 
 }
@@ -647,7 +647,7 @@ a {
     background-size: cover;
     width: 90%;
     margin: auto;
-    height: 70vh;
+    height: 80vh;
     background-color: rgba(29, 161, 242, 0.2);
     box-shadow: inset 0px 2px 10px #FFFFFF;
     backdrop-filter: blur(5px);
@@ -687,7 +687,7 @@ a {
     align-items: center;
     padding: 12px 24px;
     gap: 8px;
-    width: 25%;
+    width: 30%;
     justify-content: center;
     height: 7%;
     background: #CCCCE0;
@@ -717,8 +717,8 @@ a {
     width: 90%;
     margin: auto;
     margin-top: 0%;
-    /* outline: 2px solid red; */
-    height: 180vh;
+    
+    height: 200vh;
     margin-top: 5%;
 
 
@@ -808,7 +808,7 @@ a {
     align-items: center;
     padding: 12px 24px;
     gap: 8px;
-    width: 20%;
+    width: 25%;
     justify-content: center;
     height: 7%;
     background: #CCCCE0;
@@ -1391,7 +1391,7 @@ a {
     }
 
     .part-4 {
-        height: 250vh;
+        height: 260vh;
         max-height: auto;
     }
 
@@ -1400,7 +1400,7 @@ a {
         flex-direction: column;
         width: 90%;
         margin: auto;
-        height: 150vh;
+        height: 160vh;
     }
 
     .train {
@@ -1408,13 +1408,14 @@ a {
         width: 100%;
         margin: auto;
         margin-top: 20%;
-        max-height: 57vh;
+        height: 57vh;
+    
 
     }
 
     .work {
         width: 100%;
-        max-height: 70vh;
+    height: 70vh;
         margin-top: 20%;
 
     }
@@ -1559,7 +1560,7 @@ a {
     }
 
     .hamburger {
-        position: fixed;
+        position: sticky;
         z-index: 100;
         top: 1rem;
         right: 2rem;
